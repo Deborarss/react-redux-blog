@@ -1,0 +1,19 @@
+.PostList-item {
+  display: flex;
+  border-bottom: 1px solid #cacfd2;
+  color: #555;
+}
+
+.PostList-avatar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.PostList-content {
+  padding: 1rem;
+}
+
+.PostList-title {
+  margin-bottom: 0.5rem;
+}
