@@ -10,3 +10,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* Utils Classes */
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.d-flex {
+  display: flex;
+}

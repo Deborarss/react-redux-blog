@@ -10,8 +10,6 @@ import './css/index.css';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(reducers, composeEnhancers(applyMiddleware(thunk)));
 
-console.log(store);
-
 ReactDOM.render(
   <Provider store={store}>
     <App />
